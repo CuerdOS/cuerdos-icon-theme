@@ -10,7 +10,7 @@ This fork has been made to mark the corporate colors of CuerdOS to the icon pack
 (in debian based distros)
 
 ```
-sudo dpkg -i cuerdos-icon-theme
+sudo dpkg -i cuerdos-icon-theme.deb
 ```
 
 ### (With administrator privileges)
