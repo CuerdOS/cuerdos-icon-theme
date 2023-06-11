@@ -6,19 +6,17 @@ It is based on "Elementary-xfce" [https://github.com/shimmerproject/elementary-x
 
 This fork has been made to mark the corporate colors of CuerdOS to the icon pack; in addition to the fact that the images of these icons have been converted to the indexed color model, with the aim of following the philosophy of this distribution.
 
-### Installation for the current user only (without admin privileges)
+## Instalation guide:
+(in debian based distros)
 
 ```
-./configure --prefix=$HOME/.local
-make
-make install
-make icon-caches
+sudo dpkg -i cuerdos-icon-theme
 ```
 
-### Installation for all users
+### (With administrator privileges)
+Drag the "CuerdOS-Elementary" folder to the "/usr/share/icons" directory
 
-```
-./configure
-make
-sudo make install
-sudo make icon-caches
+### (No admin privileges)
+Drag the "CuerdOS-Elementary" folder to the "/home/[your user]/.icons" directory
+
+If the ".icons" folder does not exist, you just have to create it.
